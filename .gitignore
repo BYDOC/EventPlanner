@@ -1,0 +1,33 @@
+# Ignore build output folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Visual Studio
+.vs/
+
+# Node.js
+node_modules/
+
+# Coverage Reports
+coverage/
