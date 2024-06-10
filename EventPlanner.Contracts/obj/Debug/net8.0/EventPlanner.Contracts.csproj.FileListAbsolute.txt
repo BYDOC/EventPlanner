@@ -9,3 +9,4 @@ D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contra
 D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\refint\EventPlanner.Contracts.dll
 D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.pdb
 D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\ref\EventPlanner.Contracts.dll
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.sourcelink.json
