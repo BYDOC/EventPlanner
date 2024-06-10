@@ -34,3 +34,5 @@ coverage/
 
 #VScode
 .vscode/
+Requests/Authentication/Login.http
+Requests/Authentication/Register.http
