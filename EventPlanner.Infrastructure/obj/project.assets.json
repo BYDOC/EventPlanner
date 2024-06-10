@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "EventPlanner.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EventPlanner.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EventPlanner.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventPlanner.Application.dll": {}
+        }
+      },
+      "EventPlanner.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/EventPlanner.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventPlanner.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventPlanner.Application/1.0.0": {
+      "type": "project",
+      "path": "../EventPlanner.Application/EventPlanner.Application.csproj",
+      "msbuildProject": "../EventPlanner.Application/EventPlanner.Application.csproj"
+    },
+    "EventPlanner.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EventPlanner.Domain/EventPlanner.Domain.csproj",
+      "msbuildProject": "../EventPlanner.Domain/EventPlanner.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "EventPlanner.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Repo\\EventPlanner\\EventPlanner.Infrastructure\\EventPlanner.Infrastructure.csproj",
+      "projectName": "EventPlanner.Infrastructure",
+      "projectPath": "D:\\Repo\\EventPlanner\\EventPlanner.Infrastructure\\EventPlanner.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\z004pmsp\\.nuget\\packages\\",
+      "outputPath": "D:\\Repo\\EventPlanner\\EventPlanner.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\z004pmsp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Repo\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj": {
+              "projectPath": "D:\\Repo\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
