@@ -1,6 +1,6 @@
-# Buber Event API
+# Event Planner API
 
-- [Buber Event API](#buber-event-api)
+- [Event Planner API](#event-planner-api)
   - [Create Event](#create-event)
     - [Create Event Request](#create-event-request)
     - [Create Event Response](#create-event-response)

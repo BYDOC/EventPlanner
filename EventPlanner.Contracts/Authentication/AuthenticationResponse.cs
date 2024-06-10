@@ -1,0 +1,1 @@
+namespace EventPlanner.Contracts.Authentication;
