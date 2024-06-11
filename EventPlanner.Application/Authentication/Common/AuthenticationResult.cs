@@ -1,6 +1,6 @@
 using EventPlanner.Domain.Entities;
 
-namespace EventPlanner.Application.Services.Authentication;
+namespace EventPlanner.Application.Authentication.Common;
 
 public record AuthenticationResult(
     User User,
