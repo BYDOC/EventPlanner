@@ -1,5 +1,7 @@
+using ErrorOr;
 using EventPlanner.Application.Common.Interfaces.Authentication;
 using EventPlanner.Application.Common.Interfaces.Persistence;
+using EventPlanner.Domain.Common.Errors;
 using EventPlanner.Domain.Entities;
 
 namespace EventPlanner.Application.Services.Authentication;
@@ -15,12 +17,12 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Register(string firstname, string lastname, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstname, string lastname, string email, string password)
     {
         //validate user doesn't exist
         if (_userRepository.GetUserByEmail(email) != null)
         {
-            throw new Exception("User already exists");
+            return Errors.User.DuplicateEmail;
         }
 
         //create user (generate unique id) & save to db
@@ -41,17 +43,17 @@ public class AuthenticationService : IAuthenticationService
             user,
             token);
     }
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
         //validate user exists
         if (_userRepository.GetUserByEmail(email) is not User user)
         {
-            throw new Exception("User does not exist");
+            return Errors.Authentication.InvalidCredentials;
         }
         //validate password is correct
         if (user.Password != password)
         {
-            throw new Exception("Invalid password");
+            return new[] {Errors.Authentication.InvalidCredentials};
         }
         //create JWT token
         var token = _jwtTokenGenerator.GenerateToken(user);
@@ -60,4 +62,5 @@ public class AuthenticationService : IAuthenticationService
             token);
     }
 
+    
 }

@@ -1,4 +1,6 @@
 using System.Diagnostics;
+using ErrorOr;
+using EventPlanner.Api.Common.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -96,8 +98,11 @@ public class EventPlannerProblemDetailsFactory : ProblemDetailsFactory
         {
             problemDetails.Extensions["traceId"] = traceId;
         }
+        var errors = httpContext?.Items[HttpContextItemKeys.Errors] as List<Error>;
+        if (errors != null)
+        problemDetails.Extensions.Add("errorCodes", errors.Select(e=>e.Code));
 
-       problemDetails.Extensions.Add("customProperty", "customValue");
+
         _configure?.Invoke(new() { HttpContext = httpContext!, ProblemDetails = problemDetails });
     }
 }
