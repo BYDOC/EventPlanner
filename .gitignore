@@ -61,3 +61,24 @@ project.fragment.lock.json
 
 # Uncomment if using optional project dependency manager
 # /DependencyCache/
+
+
+# Ignore build outputs
+*.dll
+*.bin
+*.pdb
+*.cache
+*.log
+
+bin/
+obj/
+
+packages/
+node_modules/
+
+# Ignore publish output
+publish/
+
+# Ignore debug output folders
+Debug/
+Release/

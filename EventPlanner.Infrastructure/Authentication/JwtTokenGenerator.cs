@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using EventPlanner.Application.Common.Interfaces.Authentication;
 using EventPlanner.Application.Common.Interfaces.Services;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace EventPlanner.Infrastructure.Authentication;
@@ -10,13 +11,15 @@ namespace EventPlanner.Infrastructure.Authentication;
 public class JwtTokenGenerator : IJwtTokenGenerator
 {
     private readonly IDateTimeProvider _dateTimeProvider;
-    public JwtTokenGenerator(IDateTimeProvider dateTimeProvider)
+    private readonly JwtSettings _jwtSettings;
+    public JwtTokenGenerator(IDateTimeProvider dateTimeProvider, IOptions<JwtSettings> jwtOptions)
     {
+        _jwtSettings=jwtOptions.Value;
         _dateTimeProvider=dateTimeProvider;
     }
     public string GenerateToken(Guid userId, string firstName, string lastName)
     {
-        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super-secret-keysuper-secret-key"));
+        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Secret));
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
         var claims = new[]
@@ -30,9 +33,10 @@ public class JwtTokenGenerator : IJwtTokenGenerator
 
 
         var token = new JwtSecurityToken(
-            issuer: "EventPlanner",
+            issuer: _jwtSettings.Issuer,
+            audience: _jwtSettings.Audience,
             claims: claims,
-            expires: _dateTimeProvider.UtcNow.AddMinutes(60),
+            expires: _dateTimeProvider.UtcNow.AddMinutes(_jwtSettings.ExpiryMinutes),
             signingCredentials: credentials
         );
         return new JwtSecurityTokenHandler().WriteToken(token);
