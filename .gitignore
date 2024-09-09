@@ -1,0 +1,63 @@
+# Ignore Visual Studio temporary files, build results, and
+# package files.
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+.vscode/
+.vs/
+
+# Ignore the Visual Studio database and application insights settings file.
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore NuGet packages
+*.nupkg
+# The packages folder can be ignored if package restore is enabled
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Ignore the Azure Web App publish settings file
+#   This can be un-commented if it is not desired to be committed with the code
+#   but is used when setting up Continuous Deployment or publishing directly
+#   to Azure via Visual Studio.
+#*.PublishSettings
+
+# IIS Generated Files
+# Ignore any IIS-generated files, e.g. IIS Express.
+**/[Ss]cripts/*proj
+
+# Avoid ignoring files in directories you want to commit
+!*/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# DotNetCompiled resources
+project.lock.json
+project.fragment.lock.json
+
+# Uncomment if using optional project dependency manager
+# /DependencyCache/
