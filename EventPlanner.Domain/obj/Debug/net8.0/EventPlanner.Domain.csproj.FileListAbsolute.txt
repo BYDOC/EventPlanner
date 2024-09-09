@@ -9,3 +9,4 @@ D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.dl
 D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\refint\EventPlanner.Domain.dll
 D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.pdb
 D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\ref\EventPlanner.Domain.dll
+D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.sourcelink.json

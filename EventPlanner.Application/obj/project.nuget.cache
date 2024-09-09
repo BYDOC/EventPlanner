@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dDAGS+frkJA7WaKhJGwHC8KukpeyCXOTqO4AFyjCc3WFQT24JADKJH1AmquTm9uKSSvJW2cE176xPhBKxVAzbA==",
+  "dgSpecHash": "CkRtSlUr5DE9RQYgmfSqmJV4g6PNQf/ucn5lle42rkpUmnJ0K0iI62DXu9mfyBpbS1mpTe0F9By770+TCgg20A==",
   "success": true,
   "projectFilePath": "D:\\Repo\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

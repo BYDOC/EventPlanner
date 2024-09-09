@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ioEx59jWfq3RazLckj+6WhNjMSckhHZ8fzbu9OCIlEPMEoqphkUlsp1QQ7bN7T/Ed1yJVhIRjL1gxNq5PVZGPQ==",
+  "dgSpecHash": "fmv63ZEyQPESR5gwS3w+8Nrdlf3mzeEf9piF0xYIyAjwRHdyJDbSc0XkHHsOQrpU2WQj1naZCkRYrzSflwsXKg==",
   "success": true,
   "projectFilePath": "D:\\Repo\\EventPlanner\\EventPlanner.Api\\EventPlanner.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.2\\microsoft.identitymodel.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.2\\microsoft.identitymodel.jsonwebtokens.8.0.2.nupkg.sha512",
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.2\\microsoft.identitymodel.logging.8.0.2.nupkg.sha512",
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.2\\microsoft.identitymodel.tokens.8.0.2.nupkg.sha512",
+    "C:\\Users\\z004pmsp\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.2\\system.identitymodel.tokens.jwt.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

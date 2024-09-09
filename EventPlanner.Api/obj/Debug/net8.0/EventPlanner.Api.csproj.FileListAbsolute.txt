@@ -33,3 +33,10 @@ D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\EventPlanner.Contracts.pd
 D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\EventPlanner.Application.pdb
 D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\EventPlanner.Infrastructure.pdb
 D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\EventPlanner.Domain.pdb
+D:\Repo\EventPlanner\EventPlanner.Api\obj\Debug\net8.0\EventPlanner.Api.sourcelink.json
+D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Repo\EventPlanner\EventPlanner.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

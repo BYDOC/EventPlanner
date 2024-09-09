@@ -13,3 +13,4 @@ D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Doma
 D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Domain.pdb
 D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.csproj.AssemblyReference.cache
 D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.csproj.CopyComplete
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.sourcelink.json
