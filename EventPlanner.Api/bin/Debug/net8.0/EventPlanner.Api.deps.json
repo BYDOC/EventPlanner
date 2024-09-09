@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EventPlanner.Api/1.0.0": {
+        "dependencies": {
+          "EventPlanner.Application": "1.0.0",
+          "EventPlanner.Contracts": "1.0.0",
+          "EventPlanner.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "EventPlanner.Api.dll": {}
+        }
+      },
+      "EventPlanner.Application/1.0.0": {
+        "dependencies": {
+          "EventPlanner.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EventPlanner.Application.dll": {}
+        }
+      },
+      "EventPlanner.Contracts/1.0.0": {
+        "runtime": {
+          "EventPlanner.Contracts.dll": {}
+        }
+      },
+      "EventPlanner.Domain/1.0.0": {
+        "runtime": {
+          "EventPlanner.Domain.dll": {}
+        }
+      },
+      "EventPlanner.Infrastructure/1.0.0": {
+        "dependencies": {
+          "EventPlanner.Application": "1.0.0"
+        },
+        "runtime": {
+          "EventPlanner.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventPlanner.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventPlanner.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventPlanner.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventPlanner.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventPlanner.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

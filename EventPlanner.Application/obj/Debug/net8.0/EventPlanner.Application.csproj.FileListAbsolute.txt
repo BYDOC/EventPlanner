@@ -1,0 +1,15 @@
+D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Application.deps.json
+D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Application.dll
+D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Application.pdb
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.AssemblyInfoInputs.cache
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.AssemblyInfo.cs
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.csproj.CoreCompileInputs.cache
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.dll
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\refint\EventPlanner.Application.dll
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.pdb
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\ref\EventPlanner.Application.dll
+D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Domain.dll
+D:\Repo\EventPlanner\EventPlanner.Application\bin\Debug\net8.0\EventPlanner.Domain.pdb
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.csproj.AssemblyReference.cache
+D:\Repo\EventPlanner\EventPlanner.Application\obj\Debug\net8.0\EventPlanner.Application.csproj.CopyComplete

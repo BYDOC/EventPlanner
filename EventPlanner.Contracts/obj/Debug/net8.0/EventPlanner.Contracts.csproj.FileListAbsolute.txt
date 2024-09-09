@@ -1,0 +1,11 @@
+D:\Repo\EventPlanner\EventPlanner.Contracts\bin\Debug\net8.0\EventPlanner.Contracts.deps.json
+D:\Repo\EventPlanner\EventPlanner.Contracts\bin\Debug\net8.0\EventPlanner.Contracts.dll
+D:\Repo\EventPlanner\EventPlanner.Contracts\bin\Debug\net8.0\EventPlanner.Contracts.pdb
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.AssemblyInfoInputs.cache
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.AssemblyInfo.cs
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.csproj.CoreCompileInputs.cache
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.dll
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\refint\EventPlanner.Contracts.dll
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\EventPlanner.Contracts.pdb
+D:\Repo\EventPlanner\EventPlanner.Contracts\obj\Debug\net8.0\ref\EventPlanner.Contracts.dll
