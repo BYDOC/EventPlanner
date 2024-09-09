@@ -72,6 +72,8 @@ project.fragment.lock.json
 
 bin/
 obj/
+**/bin/
+**/obj/
 
 packages/
 node_modules/
@@ -82,3 +84,4 @@ publish/
 # Ignore debug output folders
 Debug/
 Release/
+EventPlanner.Api/obj/Debug/net8.0/refint/EventPlanner.Api.dll

@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4570fe39-8fac-4af2-98bf-11a53f9c431e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventPlanner.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93624ffbd1db788e0efdfe6679f01f993231c798")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+700442370670cc996ce0d2fc7bf86edb012bc396")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventPlanner.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventPlanner.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
