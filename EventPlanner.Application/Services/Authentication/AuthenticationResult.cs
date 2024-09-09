@@ -1,8 +1,7 @@
+using EventPlanner.Domain.Entities;
+
 namespace EventPlanner.Application.Services.Authentication;
 
 public record AuthenticationResult(
-    Guid id,
-    string FirstName,
-    string Lastname,
-    string Email,
+    User User,
     string Token);

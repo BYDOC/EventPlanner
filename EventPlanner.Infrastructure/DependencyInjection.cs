@@ -1,6 +1,8 @@
 using EventPlanner.Application.Common.Interfaces.Authentication;
+using EventPlanner.Application.Common.Interfaces.Persistance;
 using EventPlanner.Application.Common.Interfaces.Services;
 using EventPlanner.Infrastructure.Authentication;
+using EventPlanner.Infrastructure.Persistance;
 using EventPlanner.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +16,8 @@ public static class DependencyInjection
       services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
       services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
       services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
+
+      services.AddScoped<IUserRepository, UserRepository>();
        return services;
     }
 }
