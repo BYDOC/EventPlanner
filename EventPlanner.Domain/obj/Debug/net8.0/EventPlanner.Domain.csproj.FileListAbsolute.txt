@@ -10,3 +10,15 @@ D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\refint\EventPlanner.Do
 D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.pdb
 D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\ref\EventPlanner.Domain.dll
 D:\Repo\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.sourcelink.json
+C:\Repos\EventPlanner\EventPlanner.Domain\bin\Debug\net8.0\EventPlanner.Domain.deps.json
+C:\Repos\EventPlanner\EventPlanner.Domain\bin\Debug\net8.0\EventPlanner.Domain.dll
+C:\Repos\EventPlanner\EventPlanner.Domain\bin\Debug\net8.0\EventPlanner.Domain.pdb
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.AssemblyInfoInputs.cache
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.AssemblyInfo.cs
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.sourcelink.json
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.dll
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\refint\EventPlanner.Domain.dll
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\EventPlanner.Domain.pdb
+C:\Repos\EventPlanner\EventPlanner.Domain\obj\Debug\net8.0\ref\EventPlanner.Domain.dll

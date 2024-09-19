@@ -1,3 +1,4 @@
+using EventPlanner.Application.Common.Errors;
 using EventPlanner.Application.Common.Interfaces.Authentication;
 using EventPlanner.Application.Common.Interfaces.Persistance;
 using EventPlanner.Domain.Entities;
@@ -22,7 +23,7 @@ public class AuthenticationService : IAuthenticationService
         //check if user exist
         if (_userRepository.GetUserByEmail(email) is not null)
         {
-            throw new Exception("User with given email already exist.");
+            throw new DuplicateEmailException();
         }
         //create user (generate unique Id) and persist to DB
         var user = new User()

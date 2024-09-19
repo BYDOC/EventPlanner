@@ -94,6 +94,7 @@ public class EventPlannerProblemDetailsFactory : ProblemDetailsFactory
         {
             problemDetails.Extensions["traceId"] = traceId;
         }
+
         problemDetails.Extensions.Add("customProperty", "customValue");
     }
 }

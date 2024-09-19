@@ -154,12 +154,18 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
         },
         "runtime": {
-          "EventPlanner.Application.dll": {}
+          "EventPlanner.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EventPlanner.Domain/1.0.0": {
         "runtime": {
-          "EventPlanner.Domain.dll": {}
+          "EventPlanner.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

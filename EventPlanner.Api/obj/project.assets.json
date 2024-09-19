@@ -196,6 +196,15 @@
           }
         }
       },
+      "OneOf/3.0.271": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/8.0.2": {
         "type": "package",
         "dependencies": {
@@ -218,7 +227,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EventPlanner.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "oneof": "3.0.271"
         },
         "compile": {
           "bin/placeholder/EventPlanner.Application.dll": {}
@@ -595,6 +605,21 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "OneOf/3.0.271": {
+      "sha512": "pqpqeK8xQGggExhr4tesVgJkjdn+9HQAO0QgrYV2hFjE3y90okzk1kQMntMiUOGfV7FrCUfKPaVvPBD4IANqKg==",
+      "type": "package",
+      "path": "oneof/3.0.271",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.271.nupkg.sha512",
+        "oneof.nuspec"
+      ]
+    },
     "System.IdentityModel.Tokens.Jwt/8.0.2": {
       "sha512": "jbfANr2qEmrfEtK3L7tOnkCW5/y2YiF6ISSRhRBgIZL+W2ZbEVHFNTNV8QOKeNU6gedQnhpdU2IvB0YB3nNMjw==",
       "type": "package",
@@ -646,19 +671,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\z004pmsp\\.nuget\\packages\\": {}
+    "C:\\Users\\burak\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\EventPlanner\\EventPlanner.Api\\EventPlanner.Api.csproj",
+      "projectUniqueName": "C:\\Repos\\EventPlanner\\EventPlanner.Api\\EventPlanner.Api.csproj",
       "projectName": "EventPlanner.Api",
-      "projectPath": "D:\\Repo\\EventPlanner\\EventPlanner.Api\\EventPlanner.Api.csproj",
-      "packagesPath": "C:\\Users\\z004pmsp\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\EventPlanner\\EventPlanner.Api\\obj\\",
+      "projectPath": "C:\\Repos\\EventPlanner\\EventPlanner.Api\\EventPlanner.Api.csproj",
+      "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\EventPlanner\\EventPlanner.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\z004pmsp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -666,20 +691,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Repo\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj": {
-              "projectPath": "D:\\Repo\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj"
+            "C:\\Repos\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj": {
+              "projectPath": "C:\\Repos\\EventPlanner\\EventPlanner.Application\\EventPlanner.Application.csproj"
             },
-            "D:\\Repo\\EventPlanner\\EventPlanner.Contracts\\EventPlanner.Contracts.csproj": {
-              "projectPath": "D:\\Repo\\EventPlanner\\EventPlanner.Contracts\\EventPlanner.Contracts.csproj"
+            "C:\\Repos\\EventPlanner\\EventPlanner.Contracts\\EventPlanner.Contracts.csproj": {
+              "projectPath": "C:\\Repos\\EventPlanner\\EventPlanner.Contracts\\EventPlanner.Contracts.csproj"
             },
-            "D:\\Repo\\EventPlanner\\EventPlanner.Infrastructure\\EventPlanner.Infrastructure.csproj": {
-              "projectPath": "D:\\Repo\\EventPlanner\\EventPlanner.Infrastructure\\EventPlanner.Infrastructure.csproj"
+            "C:\\Repos\\EventPlanner\\EventPlanner.Infrastructure\\EventPlanner.Infrastructure.csproj": {
+              "projectPath": "C:\\Repos\\EventPlanner\\EventPlanner.Infrastructure\\EventPlanner.Infrastructure.csproj"
             }
           }
         }
@@ -688,6 +714,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -712,7 +743,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
